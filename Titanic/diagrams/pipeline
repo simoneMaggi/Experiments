@@ -1,0 +1,13 @@
+blockdiag {
+  // Define class (list of attributes)
+  class emphasis [color = lightblue, style = dashed];
+  class redline [color = red, style = dotted];
+
+  Impute -> Preprocess -> Model -> Tuning;
+
+  #// Set class to node
+  #Transform [class = "emphasis"];
+
+  #// Set class to edge
+  #Transform -> Load [class = "redline"];
+}
