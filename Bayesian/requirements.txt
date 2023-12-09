@@ -1,0 +1,8 @@
+pymc=5.10.0
+pymc-bart==0.5.4
+seaborn
+numpy
+pandas
+matplotlib
+mlflow
+scikit-learn
