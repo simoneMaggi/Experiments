@@ -1,5 +1,6 @@
 pymc=5.10.0
 pymc-bart==0.5.4
+arviz
 seaborn
 numpy
 pandas
